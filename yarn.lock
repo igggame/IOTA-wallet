@@ -1623,7 +1623,7 @@ iota-wallet-shared-modules@./src/shared/:
   dependencies:
     bignumber.js "^7.2.1"
     i18next "^10.2.2"
-    iota.lib.js "git+https://git@github.com/iotaledger/iota.lib.js#develop"
+    iota.lib.js "^0.5.0"
     lodash "^4.17.10"
     moment "^2.22.2"
     proxy-polyfill "git+https://git@github.com/GoogleChrome/proxy-polyfill#9c009d7"
@@ -1639,9 +1639,9 @@ iota-wallet-shared-modules@./src/shared/:
     valid-url "^1.0.9"
     zxcvbn "^4.4.2"
 
-"iota.lib.js@git+https://git@github.com/iotaledger/iota.lib.js#develop":
-  version "0.4.8"
-  resolved "git+https://git@github.com/iotaledger/iota.lib.js#49cec7296cb179a1c83b4b1fbb4c3fa129ca9f8f"
+iota.lib.js@^0.5.0:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/iota.lib.js/-/iota.lib.js-0.5.3.tgz#9ed6b3bdae075f0828205c2c94b64630b08a1862"
   dependencies:
     async "^2.5.0"
     bignumber.js "^4.1.0"
@@ -2787,8 +2787,8 @@ path-key@^2.0.0:
   resolved "https://registry.yarnpkg.com/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
 
 path-parse@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.5.tgz#3c1adf871ea9cd6c9431b6ea2bd74a0ff055c4c1"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
 
 path-type@^2.0.0:
   version "2.0.0"
